@@ -71,7 +71,13 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+.headerts{
+	/*margin-left: -1% !important;*/
+	background-color: #8f7d4f63;
+	font-size: 124%;
+	text-transform: uppercase;
+    width: 100%;
+}
 /* Basic */
 
 	@-ms-viewport {
@@ -2848,7 +2854,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 0 0 -1rem 0;
 		padding-left: 1rem;
 	}
 
@@ -3024,22 +3030,22 @@ input, select, textarea {
 		}
 
 		table td {
-			padding: 0rem 8rem;
-			width: 12%;
-			font-size: 70%;
+			padding: 0rem 11rem;
+			width: 14%;
+			font-size: 95%;
 			text-align: left;
-			
+			white-space: nowrap;
 		}
 
 		table th {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 0.8rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1.5;
-			padding: 0 0.75rem 0.75rem 0.75rem;
+			padding: 12px 0.75rem 0.75rem 0.75rem;
 			text-align: left;
 			text-transform: uppercase;
+			white-space: nowrap;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3108,7 +3114,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 	.mainGrp{
-		width: 15;
+		padding:0rem 0rem 0rem 1rem;
 	}
 /* Pagination */
 
@@ -3397,8 +3403,9 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 3rem;
 			line-height: 1;
+			font-family: Georgia, 'Times New Roman', Times, serif;
 		}
 
 		#intro p {
@@ -3583,7 +3590,7 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1rem 1.75rem;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 			visibility: visible;
 		}
 
@@ -3722,7 +3729,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 1.2rem;
 					outline: none;
 					padding: 0 2rem;
 				}
@@ -3776,8 +3783,8 @@ input, select, textarea {
 	}
 
 		#main > * {
-			padding: 2rem 2rem 1rem 2rem ;
-			border-top: solid 2px #eeeeee;
+			padding: 1rem 0rem 1rem 2rem;
+			/*border-top: solid 2px #eeeeee;*/
 			margin: 0;
 		}
 
@@ -4697,4 +4704,34 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+	.tableHeader_cert{
+		/*margin-left: -1% !important;*/
+		background-color: #8f7d4f63;
+		font-size: 115%;
+		text-transform: uppercase;
+		padding:11px 2.75rem 0.75rem 2.75rem !important;
+		width: 100%;
+	}
+	
+	.tabledata_cert{
+		/*margin-left: -1% !important;*/
+		/*background-color: #8f7d4f63;*/
+		font-size: 100%;
+		
+		padding:7px 0.75rem 0.75rem 2.75rem !important ;
+		width: 100%;
+	}
+
+	div.experience > div:nth-of-type(odd) {
+		background: #f1eaea;
+		padding:1.5rem 1.5rem 0rem !important;
+	}
+	.tableHeader_Education{
+		margin-left: -1% !important;
+		background-color: #8f7d4f63;
+		font-size: 125%;
+		text-transform: uppercase;
+		padding:15px 0.75rem 1rem 0rem !important;
+		width: 100%;
 	}
