@@ -73,7 +73,7 @@ input, select, textarea {
 }
 .headerts{
 	/*margin-left: -1% !important;*/
-	background-color: #8f7d4f63;
+	background-color: #64565663;
 	font-size: 124%;
 	text-transform: uppercase;
     width: 100%;
@@ -3250,7 +3250,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
+			background-color: #1e3f60;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -3783,7 +3783,7 @@ input, select, textarea {
 	}
 
 		#main > * {
-			padding: 1rem 0rem 1rem 2rem;
+			padding: 1rem 2rem 1rem 2rem;
 			/*border-top: solid 2px #eeeeee;*/
 			margin: 0;
 		}
